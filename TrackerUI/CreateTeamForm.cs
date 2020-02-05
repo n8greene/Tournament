@@ -39,7 +39,7 @@ namespace TrackerUI
             if (ValidateForm())
             {
                 PersonModel p = new PersonModel();
-
+                //adding comment just for test (github)
                 p.FirstName = FirstNameValue.Text;
                 p.LastName = LastNameValue.Text;
                 p.EmailAddress = EmailValue.Text;
